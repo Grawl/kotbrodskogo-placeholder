@@ -14,6 +14,7 @@
 		"parcel-bundler": "^1.12.4",
 		"parcel-plugin-clean-dist": "^0.0.6",
 		"parcel-plugin-ogimage": "^1.1.0",
+		"posthtml-inline-assets": "^3.0.0",
 		"pug": "^2.0.4",
 		"stylus": "^0.54.7"
 	},
