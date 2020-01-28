@@ -1,0 +1,55 @@
+doctype html
+html
+	head
+		meta(charset='utf-8')
+		title Кот Бродского
+		meta(name='viewport' content='width=device-width, initial-scale=1')
+		link(rel='icon' sizes='64x64' href='images/64.png')
+		link(rel='icon' sizes='128x128' href='images/128.png')
+		link(rel='icon' sizes='256x256' href='images/256.png')
+		link(rel='apple-touch-icon' sizes='64x64' href='images/64.png')
+		link(rel='apple-touch-icon' sizes='128x128' href='images/128.png')
+		link(rel='apple-touch-icon' sizes='256x256' href='images/256.png')
+		link(rel='shortcut icon' href='images/favicon.png')
+		meta(
+		name='title'
+		content='«Кот Бродского» - журнал о книгах и тех, кто их читает')
+		meta(
+		name='twitter:title'
+		property='og:title'
+		content='«Кот Бродского» - журнал о книгах и тех, кто их читает'
+		)
+		meta(
+		name='description'
+		content='«Кот Бродского» - интернет-журнал о книгах и тех, кто их читает. Освещаем последние новости литературы, пишем статьи и обзоры книг, следим за актуальными мероприятиями в литературной среде.'
+		)
+		meta(
+		name='twitter:description'
+		property='og:description'
+		content='«Кот Бродского» - интернет-журнал о книгах и тех, кто их читает. Освещаем последние новости литературы, пишем статьи и обзоры книг, следим за актуальными мероприятиями в литературной среде.'
+		)
+		link(rel='image_src' href='images/500.png')
+		meta(name='twitter:image' property='og:image' content='images/500.png')
+		link(rel='canonical' href='https://kotbrodskogo.ru/')
+		meta(property='og:url' content='https://kotbrodskogo.ru/')
+		meta(property='og:type' content='website')
+		meta(name='twitter:card' content='summary_large_image')
+		link(rel='stylesheet' href='style.styl' class='style')
+		link(
+		rel='stylesheet'
+		href='https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap&subset=cyrillic'
+		)
+	body: .content
+		h1.name Кот Бродского
+		p.title здесь скоро будет сайт классных книжных стендапов
+		p.links
+			a(
+			href='https://www.youtube.com/channel/UC1F114JmC9CetaTmDMwtx6w'
+			title='YouTube'
+			).link
+				include ./socials/youtube.svg
+			a(
+			href='https://www.instagram.com/kotbrodskogo'
+			title='Instagram'
+			).link
+				include ./socials/instagram.svg
